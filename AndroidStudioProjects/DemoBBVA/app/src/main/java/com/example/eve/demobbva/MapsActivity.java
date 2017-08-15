@@ -48,8 +48,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     private GoogleMap mMap;
     public String s;
-    public LocationManager locationManager;
-    public LocationListener locationListener;
     public ArrayList<BankInfo> bankInfos;
 
     @TargetApi(Build.VERSION_CODES.M)
